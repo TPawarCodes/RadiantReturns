@@ -2,7 +2,7 @@
 
 A Spring Boot application for managing investment portfolios, assets, and tracking market performance.
 
-## 📋 Features
+##  Features
 
 - **Asset Management**: Create, update, and track various asset types (stocks, bonds, crypto, etc.)
 - **Portfolio Tracking**: Organize assets into portfolios with holdings
@@ -10,7 +10,7 @@ A Spring Boot application for managing investment portfolios, assets, and tracki
 - **Market Price Tracking**: Monitor real-time market prices for assets
 - **RESTful APIs**: Complete REST endpoints for all operations
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Java 17**
 - **Spring Boot 3.2.2**
@@ -19,7 +19,7 @@ A Spring Boot application for managing investment portfolios, assets, and tracki
 - **Spring Web** - REST API development
 - **Spring Boot DevTools** - Development utilities
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 src/main/java/com/portfolio/portfoliomanager/
@@ -90,7 +90,7 @@ The application will start on `http://localhost:8080`
 - `POST /api/holdings` - Create new holding
 - `GET /api/holdings/{id}` - Get holding by ID
 
-## 🔧 Configuration
+##  Configuration
 
 Application properties can be configured in `src/main/resources/application.properties`:
 
@@ -106,14 +106,14 @@ logging.level.root=INFO
 logging.level.com.radreturns=DEBUG
 ```
 
-## 📦 Building for Production
+##  Building for Production
 
 ```bash
 mvn clean package
 java -jar target/radreturns-0.0.1-SNAPSHOT.jar
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -121,17 +121,17 @@ java -jar target/radreturns-0.0.1-SNAPSHOT.jar
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 👤 Author
+##  Author
 
 **TPawarCodes**
 
 - GitHub: [@TPawarCodes](https://github.com/TPawarCodes)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Spring Boot team for the excellent framework
 - Contributors and maintainers
